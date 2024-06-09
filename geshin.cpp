@@ -5,6 +5,13 @@
  \___  / \___  >___|  /____  >___|  /__|___|  / |__|__|_|  /   __(____  /\___  >__|  
 /_____/      \/     \/     \/     \/        \/           \/|__|       \/     \/      
 */
+
+
+
+/* 1. Muhammad Faqih Husain   5027231023
+   2. Muhammad Hildan Adiwena	50272310
+   3. Dzaky Faiq Fayyadhi     5027231047
+*/
 #include <iostream>
 #include <unordered_map>
 #include <vector>
@@ -230,7 +237,7 @@ public:
                                 cout << "Invalid selection.\n";
                             }
                         }else if (response == "no"){
-                            cout << "Okeee!";
+                            cout << "Okeee!\n";
                         }else{
                             cout << "Apasih lu gaje WIBU!\n";
                         }
@@ -418,7 +425,7 @@ void calculateDistanceBetweenCities(BaseGraph* roadGraph, BaseGraph* seaRouteGra
     dest = normalizeCityName(dest);
 
     int distance;
-    if (type == "jalan") {
+    if (type == "darat") {
         distance = dijkstra(*roadGraph, src, dest);
     } else if (type == "laut") {
         distance = dijkstra(*seaRouteGraph, src, dest);
@@ -457,17 +464,17 @@ void TambahJalan(BaseGraph* roadGraph, BaseGraph* seaRouteGraph) {
 
 void TambahKarakter(BaseGraph* roadGraph, BaseGraph* seaRouteGraph) {
     // Adding characters to cities
-    roadGraph->addCharacter("Sumeru", Character("Nilou", 255, 3364, "Sumeru"));
-    roadGraph->addCharacter("Sumeru", Character("Cyno", 658, 4608, "Sumeru"));
-    roadGraph->addCharacter("Snezhnaya", Character("Tartaglia (Childe)", 206, 1857, "Snezhnaya"));
-    roadGraph->addCharacter("Mondstadt", Character("Diluc", 594, 4178, "Mondstadt"));
-    roadGraph->addCharacter("Mondstadt", Character("Fischl", 918, 7134, "Mondstadt"));
-    roadGraph->addCharacter("Liyue", Character("Ningguang", 769, 9013, "Liyue"));
-    roadGraph->addCharacter("Liyue", Character("Qiqi", 292, 4946, "Liyue"));
-    seaRouteGraph->addCharacter("Inazuma", Character("Kujou Sara", 429, 1615, "Inazuma"));
-    seaRouteGraph->addCharacter("Inazuma", Character("Raiden Shogun", 647, 1058, "Inazuma"));
-    roadGraph->addCharacter("Fontaine", Character("Neuvillette", 294, 4395, "Fontaine"));
-    roadGraph->addCharacter("Fontaine", Character("Wriothesley", 564, 7634, "Fontaine"));
+    roadGraph->addCharacter("Sumeru", Character("Nilou", 2489, 13364, "Sumeru"));
+    roadGraph->addCharacter("Sumeru", Character("Cyno", 158, 4608, "Sumeru"));
+    roadGraph->addCharacter("Snezhnaya", Character("Tartaglia (Childe)", 3206, 11857, "Snezhnaya"));
+    roadGraph->addCharacter("Mondstadt", Character("Diluc", 2594, 14178, "Mondstadt"));
+    roadGraph->addCharacter("Mondstadt", Character("Fischl", 7918, 7134, "Mondstadt"));
+    roadGraph->addCharacter("Liyue", Character("Ningguang", 3769, 9013, "Liyue"));
+    roadGraph->addCharacter("Liyue", Character("Qiqi", 13292, 18946, "Liyue"));
+    seaRouteGraph->addCharacter("Inazuma", Character("Kujou Sara", 2429, 11615, "Inazuma"));
+    seaRouteGraph->addCharacter("Inazuma", Character("Raiden Shogun", 2647, 11058, "Inazuma"));
+    roadGraph->addCharacter("Fontaine", Character("Neuvillette", 2294, 11395, "Fontaine"));
+    roadGraph->addCharacter("Fontaine", Character("Wriothesley", 2564, 13634, "Fontaine"));
 }
 
 void addEdgeFromUserInput(BaseGraph* roadGraph, BaseGraph* seaRouteGraph) {
@@ -481,18 +488,18 @@ void addEdgeFromUserInput(BaseGraph* roadGraph, BaseGraph* seaRouteGraph) {
     getline(cin, city2);
     cout << "Masukkan jarak antara kedua kota: ";
     cin >> distance;
-    cout << "Masukkan jenis jalan (jalan atau laut): ";
+    cout << "Masukkan jenis jalan (darat atau laut): ";
     cin >> type;
 
     city1 = normalizeCityName(city1);
     city2 = normalizeCityName(city2);
 
-    if (type == "jalan") {
+    if (type == "darat") {
         roadGraph->addEdge(city1, city2, distance);
     } else if (type == "laut") {
         seaRouteGraph->addEdge(city1, city2, distance);
     } else {
-        cout << "Jenis jalan tidak dikenal!" << endl;
+        cout << "Apalah dia apalah!" << endl;
     }
 }
 
@@ -507,13 +514,13 @@ void editEdgeFromUserInput(BaseGraph* roadGraph, BaseGraph* seaRouteGraph) {
     getline(cin, city2);
     cout << "Masukkan jarak baru antara kedua kota: ";
     cin >> newDistance;
-    cout << "Masukkan jenis jalan (jalan atau laut): ";
+    cout << "Masukkan jenis jalan (darat atau laut): ";
     cin >> type;
 
     city1 = normalizeCityName(city1);
     city2 = normalizeCityName(city2);
 
-    if (type == "jalan") {
+    if (type == "darat") {
         roadGraph->editEdge(city1, city2, newDistance);
     } else if (type == "laut") {
         seaRouteGraph->editEdge(city1, city2, newDistance);
@@ -530,13 +537,13 @@ void deleteEdgeFromUserInput(BaseGraph* roadGraph, BaseGraph* seaRouteGraph) {
     getline(cin, city1);
     cout << "Masukkan nama kota kedua: ";
     getline(cin, city2);
-    cout << "Masukkan jenis jalan (jalan atau laut): ";
+    cout << "Masukkan jenis jalan (darat atau laut): ";
     cin >> type;
 
     city1 = normalizeCityName(city1);
     city2 = normalizeCityName(city2);
 
-    if (type == "jalan") {
+    if (type == "darat") {
         roadGraph->deleteEdge(city1, city2);
     } else if (type == "laut") {
         seaRouteGraph->deleteEdge(city1, city2);
@@ -570,26 +577,35 @@ Character selectCharacter(const BaseGraph& roadGraph, const BaseGraph& seaRouteG
     cout << "Select a character from the list below:\n";
     vector<Character> allCharacters;
 
-    for (const auto& city : roadGraph.getCityCharacters()) {
-        for (const auto& character : city.second) {
-            allCharacters.push_back(character);
+    // Combining character lists from two graphs
+    auto addCharacters = [&](const BaseGraph& graph) {
+        for (const auto& city : graph.getCityCharacters()) {
+            for (const auto& character : city.second) {
+                allCharacters.push_back(character);
+            }
         }
-    }
+    };
 
-    for (const auto& city : seaRouteGraph.getCityCharacters()) {
-        for (const auto& character : city.second) {
-            allCharacters.push_back(character);
-        }
-    }
+    addCharacters(roadGraph);
+    addCharacters(seaRouteGraph);
+
+    // Print characters in a tabular format
+    cout << left << setw(5) << "No." << setw(20) << "Name" << setw(20) << "City" << setw(10) << "HP" << setw(10) << "Attack\n";
+    cout << string(65, '-') << '\n'; // Print a line of dashes for the table header
 
     for (size_t i = 0; i < allCharacters.size(); ++i) {
-        cout << i + 1 << ". " << allCharacters[i].name << " (City: " << allCharacters[i].city << ", HP: " << allCharacters[i].hp << ", Attack: " << allCharacters[i].attack << ")\n";
+        cout << setw(5) << i + 1
+             << setw(20) << allCharacters[i].name
+             << setw(20) << allCharacters[i].city
+             << setw(10) << allCharacters[i].hp
+             << setw(10) << allCharacters[i].attack << '\n';
     }
 
     cout << "Enter the number of the character you want to select: ";
     size_t choice;
     cin >> choice;
 
+    // Validate choice and return the selected character
     if (choice > 0 && choice <= allCharacters.size()) {
         return allCharacters[choice - 1];
     } else {
@@ -601,10 +617,10 @@ Character selectCharacter(const BaseGraph& roadGraph, const BaseGraph& seaRouteG
 void exploreGraphWithDFS(BaseGraph* roadGraph, BaseGraph* seaRouteGraph) {
     Character character = selectCharacter(*roadGraph, *seaRouteGraph);
     string type;
-    cout << "Masukkan jenis jalur (jalan atau laut): ";
+    cout << "Masukkan jenis jalur (darat atau laut): ";
     cin >> type;
 
-    if (type == "jalan") {
+    if (type == "darat") {
         roadGraph->dfs(character);
     } else if (type == "laut") {
         seaRouteGraph->dfs(character);
@@ -616,7 +632,7 @@ void exploreGraphWithDFS(BaseGraph* roadGraph, BaseGraph* seaRouteGraph) {
 void printNPCs() {
     cout << "\nNPCs in Cities:\n";
     for (const auto& city : manager.cityNPCs) {
-        cout << setw(15) << left << city.first << " -> ";
+        cout << setw(15) << left << city.first << "\n";
         for (const auto& npc : city.second) {
             npc->printInfo();
             cout << "\n";
@@ -637,27 +653,36 @@ void addNPC() {
     manager.addTrader("Kiminami Anna (Kiminami Restaurant)", "Inazuma", {{"Onigiri", "+10% HP", 10}, {"Tricolor Dango", "+200 HP", 200}});
     manager.addTrader("Iwakura Doukei (Blacksmith)", "Inazuma", {{"Amethyst Lump", "+30 ATK", 30}, {"Electro Crystal", "+40 ATK", 40}, {"White Iron Greatsword", "+50 ATK", 50}});
 }
+void displayMenu() {
+    cout << "              .---_                              ____\n";
+    cout << "             /       \\                      ___/    \\___\n";
+    cout << "            | @ @  O   | ===================/    -^-     \\===\n";
+    cout << "             \\   <   /                _/                  \\_\n";
+    cout << "              `-----'           _____/                      \\_____\n";
+    cout << "           +===+===========+===/===================================================\\+\n";
+    cout << "         |     |                            Genshin Impact              | SHOW |     |\n";
+    cout << "        |    1 | Memasukkan Database  | 4 |   Menghapus   jalan     7 | Karakter      |\n";
+    cout << "        |    2 | Menambahkan jalan    | 5 |   Menampilkan jalan     8 | NPC           |\n";
+    cout << "        |    3 | Mengedit jalan       | 6 |   Jarak Antar Kota      9 | Exploration   |\n";
+    cout << "         |     |                      | 0 |     Quit                                 |\n";
+    cout << "          +====+===========+===+===================================================+/\n";
+    cout << "                ============================================================ \n";
+    cout << "              //       _____  ___  ______________  __ ___ _ _ __ _ ____      \\ \n";
+    cout << "             ||   (                                                       )  ||   \n";
+    cout << "              \\       ___ _ _ __ __   __ __ _ _____ ___ _____ __ __ ___     //  \n";
+    cout << "                ===========================================================\n";
+}
 
 int main() {
     BaseGraph* roadGraph = new RoadGraph();
     BaseGraph* seaRouteGraph = new SeaRouteGraph();
     
     int status = -1;
-    
+    displayMenu();
     // Add characters to database at the start
     TambahKarakter(roadGraph, seaRouteGraph);
     
-    while (true) {
-        cout << "Pilih 1 untuk memasukkan database\n";
-        cout << "2 untuk menambahkan jalan\n";
-        cout << "3 untuk mengedit jalan\n";
-        cout << "4 untuk menghapus jalan\n";
-        cout << "5 untuk menampilkan jalan yang ada\n";
-        cout << "6 untuk mengetahui jarak antara 2 kota\n";
-        cout << "7 untuk menampilkan karakter yang ada\n";
-        cout << "8 untuk menampilkan NPC yang ada\n";
-        cout << "9 untuk melakukan penjelajahan graf menggunakan DFS\n";
-        cout << "Pilih 0 untuk mengakhiri program\n";
+     while (true) {
         cout << "Masukkan pilihan Anda: ";
         cin >> status;
 
@@ -691,7 +716,7 @@ int main() {
                 printCharacters(*roadGraph, *seaRouteGraph);
                 break;
             case 8:
-                printNPCs();
+                printNPCs();	
                 break;
             case 9:
                 exploreGraphWithDFS(roadGraph, seaRouteGraph);
