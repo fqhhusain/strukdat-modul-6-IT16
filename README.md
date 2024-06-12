@@ -71,6 +71,23 @@ Data hiding adalah cara membatasi akses anggota data dengan menyembunyikan detai
 ![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/3441f58b-4231-4cd4-8372-c8db63173ae5)
 
 - Inheritance
+
+Inheritance adalah suatu fitur atau proses dimana class baru dibuat dari class yang sudah ada. Kelas baru yang dibuat disebut “derived class” atau “child class” dan class yang sudah ada disebut “base class” atau “parent class”.
+
+Derived class diwariskan oleh base class. Artinya, derived class memperoleh properti dan karakteristik dari base class, dan bisa menambah fitur tersendiri tanpa mengubah properti dari base class.
+
+NPC memiliki sub class Trader dan Enemy
+
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/efba54e7-2827-4176-8715-27d1885e0b2d)
+
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/7c357a98-e7e5-46af-b0c6-8d1193d07e73)
+
+BaseGraph memiliki subclass RoadGraph dan SeaRouteGraph
+
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/ee0086f1-88d2-410b-9d9f-be50394f7a79)
+
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/00a4dd72-cd95-4a9e-8795-0c353acf01c6)
+
 - Overriding
 - Access Modifier, Visibility
 - Abstraction
