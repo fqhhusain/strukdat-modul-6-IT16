@@ -8,16 +8,25 @@ Peta direpresentasikan dengan adjecency list yang menggambarkan jarak suatu kota
 
 ## Konsep OOP 
 
-1. Class & Object
-2. Attribute, Property & Method, Behavior
-3. Constructor
-4. Setter & Getter
-5. Encapsulation
-6. Inheritance
-7. Overriding
-8. Access Modifier, Visibility
-9. Abstraction
-10. Polymorphism
+- Class & Object
+  ![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/c340c1ac-f457-44da-b606-418b1610b502)
+
+  ![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/c1815ea7-5e79-4907-9677-37102fd52906)
+
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/f642ea84-f92f-4910-94e2-2b68e5dfcb21)
+
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/ae3ecd1b-f227-4536-85e0-cbaaeea5ddf0)
+
+
+- Attribute, Property & Method, Behavior
+- Constructor
+- Setter & Getter
+- Encapsulation
+- Inheritance
+- Overriding
+- Access Modifier, Visibility
+- Abstraction
+- Polymorphism
 
 # Konsep Graf
 
