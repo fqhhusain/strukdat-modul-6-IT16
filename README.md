@@ -10,6 +10,9 @@ Peta direpresentasikan dengan adjecency list yang menggambarkan jarak suatu kota
 
 - Class & Object
 
+Class adalah sebuah tipe data yang terdiri dari satu atau lebih data dan satu atau lebih fungsi. Sebuah class dapat diakses ketika class tersebut dipanggil dan dibuat dalam bentuk instance dari class tersebut.
+Berikut ini adalah Class yang diterapkan di dalam program:
+
 ![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/c340c1ac-f457-44da-b606-418b1610b502)
 
 ![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/c1815ea7-5e79-4907-9677-37102fd52906)
