@@ -9,9 +9,10 @@ Peta direpresentasikan dengan adjecency list yang menggambarkan jarak suatu kota
 ## Konsep OOP 
 
 - Class & Object
-  ![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/c340c1ac-f457-44da-b606-418b1610b502)
 
-  ![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/c1815ea7-5e79-4907-9677-37102fd52906)
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/c340c1ac-f457-44da-b606-418b1610b502)
+
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/c1815ea7-5e79-4907-9677-37102fd52906)
 
 ![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/f642ea84-f92f-4910-94e2-2b68e5dfcb21)
 
