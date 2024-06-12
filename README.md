@@ -52,6 +52,12 @@ Pada program menerapkan Parameterized Constructor.Constructor ini digunakan keti
 ![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/1999c094-a1f8-4e38-918f-7f57340c78b5)
 
 - Setter & Getter
+
+  Karena adjlist berada dalam protected sehingga memerlukan getter
+
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/71688da0-4fcd-477a-9e35-9933cfd4e6b6)
+
+
 - Encapsulation
 
 Encapsulation dalam pemrograman berorientasi objek (OOP) adalah konsep untuk mengemas data bersama dengan metode yang beroperasi pada data tersebut dalam sebuah class. Ini berarti bahwa data (variabel) bersama dengan operasi (metode atau fungsi) yang bekerja pada data itu, dikemas bersama dalam satu unit yang disebut objek.
