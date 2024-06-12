@@ -89,6 +89,9 @@ BaseGraph memiliki subclass RoadGraph dan SeaRouteGraph
 ![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/00a4dd72-cd95-4a9e-8795-0c353acf01c6)
 
 - Overriding
+
+
+
 - Access Modifier, Visibility
 
 Konsep "Access Modifier" atau "Visibility" adalah bagian penting dari pemrograman berorientasi objek karena membantu mengatur akses terhadap properti dan metode dari suatu kelas.
@@ -102,7 +105,25 @@ Protected
 ![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/597aaa8a-e5ca-4564-9804-923e3b516841)
 
 - Abstraction
+
+Data Abstraction
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/a6ce096b-0c46-4f1e-a673-9f8dd94ea1c5)
+
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/13673c16-e3c3-45e6-b515-0af808d10658)
+
+
+Control Abstraction
+
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/ac58a6db-356e-4be2-a902-6cd25afbbe3a)
+
 - Polymorphism
+  
+Berupa Runtime Polymorphism. Jenis polymorphism ini dicapai dengan Penimpaan Fungsi. 
+
+Virtual function adalah fungsi anggota yang dideklarasikan di kelas dasar menggunakan kata kunci virtual dan didefinisikan ulang (override) di kelas turunan.
+
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/916329e3-146b-41f7-9a7c-136594f2559d)
+
 
 # Konsep Graf
 
