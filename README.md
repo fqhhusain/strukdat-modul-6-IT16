@@ -44,6 +44,7 @@ Contoh peneraoan method pada program:
 ![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/8d803350-9d97-4f76-a6a2-b163c3b1cabe)
 
 - Constructor
+
 Pada program menerapkan Parameterized Constructor.Constructor ini digunakan ketika kita ingin menginisialisasi data anggota dengan nilai tertentu pada saat pembuatan objek.
 
 ![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/1999c094-a1f8-4e38-918f-7f57340c78b5)
