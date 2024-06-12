@@ -20,6 +20,16 @@ Peta direpresentasikan dengan adjecency list yang menggambarkan jarak suatu kota
 
 ![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/98ffc449-3131-4bb3-a5f2-7aa0a623996f)
 
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/310eef60-39e6-4a70-a241-098d18e26ae7)
+
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/3e85407e-2fc7-4145-958e-32b68a33d927)
+
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/dd41cf54-c8d6-4d4c-8370-79a6700c478e)
+
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/01d08f49-e907-4a2a-b16c-24b224548cc6)
+
+
+
 - Attribute, Property & Method, Behavior
 - Constructor
 - Setter & Getter
