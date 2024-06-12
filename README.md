@@ -90,6 +90,17 @@ BaseGraph memiliki subclass RoadGraph dan SeaRouteGraph
 
 - Overriding
 - Access Modifier, Visibility
+
+Konsep "Access Modifier" atau "Visibility" adalah bagian penting dari pemrograman berorientasi objek karena membantu mengatur akses terhadap properti dan metode dari suatu kelas.
+
+Public 
+
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/2bf1f5cf-e9fe-402f-93bc-902221ba1bd8)
+
+Protected
+
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/597aaa8a-e5ca-4564-9804-923e3b516841)
+
 - Abstraction
 - Polymorphism
 
