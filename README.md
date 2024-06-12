@@ -38,6 +38,8 @@ Contoh penerapan attribute pada program:
 
 ![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/1023d073-3baa-4963-8675-dfb381e47ce9)
 
+Class character memiliki attribute string name, int hp, dan string city.
+
 Method/Behavior adalah fungsi yang terdapat dalam sebuah class. Method/Behavior dapat menggunakan suatu parameter dan menerima argumen yang nantinya dapat dimanipulasi untuk menghasilkan sebuah output sesuai tujuan dibuatnya Method/Behavior tersebut.
 Contoh peneraoan method pada program:
 
