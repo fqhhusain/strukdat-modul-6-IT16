@@ -31,9 +31,18 @@ Berikut ini adalah Class yang diterapkan di dalam program:
 
 ![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/01d08f49-e907-4a2a-b16c-24b224548cc6)
 
-
-
 - Attribute, Property & Method, Behavior
+
+Attribute/Property adalah anggota variabel data yang berada dalam sebuah class yang mewakili suatu fitur tertentu. Attribute/Property juga dapat disebut sebagai karakteristik class yang dapat diakses dari object lain atau membedakan suatu class dengan class lainnya.
+Contoh penerapan attribute pada program:
+
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/1023d073-3baa-4963-8675-dfb381e47ce9)
+
+Method/Behavior adalah fungsi yang terdapat dalam sebuah class. Method/Behavior dapat menggunakan suatu parameter dan menerima argumen yang nantinya dapat dimanipulasi untuk menghasilkan sebuah output sesuai tujuan dibuatnya Method/Behavior tersebut.
+Contoh peneraoan method pada program:
+
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/8d803350-9d97-4f76-a6a2-b163c3b1cabe)
+
 - Constructor
 - Setter & Getter
 - Encapsulation
