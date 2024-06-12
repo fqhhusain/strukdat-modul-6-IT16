@@ -57,7 +57,13 @@ Pada program menerapkan Parameterized Constructor.Constructor ini digunakan keti
 Encapsulation dalam pemrograman berorientasi objek (OOP) adalah konsep untuk mengemas data bersama dengan metode yang beroperasi pada data tersebut dalam sebuah class. Ini berarti bahwa data (variabel) bersama dengan operasi (metode atau fungsi) yang bekerja pada data itu, dikemas bersama dalam satu unit yang disebut objek.
 
 ![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/5ec2920f-2718-4bb0-b911-246676ef1973)
-  
+
+Data Hiding
+
+Data hiding adalah cara membatasi akses anggota data dengan menyembunyikan detail implementasi. Dalam contoh berikut menggunakan protected.
+
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/3441f58b-4231-4cd4-8372-c8db63173ae5)
+
 - Inheritance
 - Overriding
 - Access Modifier, Visibility
