@@ -90,7 +90,17 @@ BaseGraph memiliki subclass RoadGraph dan SeaRouteGraph
 
 - Overriding
 
+Overriding adalah sebuah method dari superclass (kelas induk) yang ditulis kembali pada subclass (kelas anak). Karena sering kali terdapat sebuah method dari superclass (kelas induk) yang aksi pada methodnya tidak sesuai jika diterapkan pada subclass (kelas anak).
 
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/8014bd6e-e3d5-4571-a8d4-f63761be3c3e)
+
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/dfdddc28-1064-40f2-9e5a-07f8bda20775)
+
+![image](https://github.com/fqhhusain/strukdat-modul-6-IT16/assets/88548292/c15901b5-5982-4c23-aedf-87be693c5f03)
+
+Fungsi printInfo() di kelas Enemy digunakan untuk mencetak informasi tentang musuh seperti nama, kota, HP, dan serangan.
+
+Fungsi printInfo() di kelas Trader digunakan untuk mencetak informasi tentang pedagang seperti nama, kota, dan barang-barang yang dijualnya beserta statistik masing-masing barang.
 
 - Access Modifier, Visibility
 
